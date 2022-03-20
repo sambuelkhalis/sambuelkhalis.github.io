@@ -1,23 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Portfolio</title>
+    <title>Sambu Portfolio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css" />
+    <!-- Less -->
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <!-- Icon -->
+    <link rel="stylesheet" href="fontawesome-free-6.1.0-web\css\all.css" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;400&family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600;700&family=Red+Hat+Mono:ital,wght@0,400;1,300&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono:wght@300;400&family=Roboto:ital,wght@1,100&family=Rubik:wght@300;400&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JQery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <h1>Hello World !</h1>
-    <p>Test For Edit My Website</p>
-    <h1>https://www.sambuelkhalis.com</h1>
-    <h2>https://www.sambuelkhalis.com</h2>
-    <h3>https://www.sambuelkhalis.com</h3>
-    <h4>https://www.sambuelkhalis.com</h4>
-    <h5>https://www.sambuelkhalis.com</h5>
-    <h6>https://www.sambuelkhalis.com</h6>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="max_width">
+          <div class="logo">
+            <a href="#Home">Sambu <span>Portfolio</span></a>
+          </div>
+          <ul class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Skill">Skill</a></li>
+            <li><a href="#Team">Team</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- / Navbar -->
+
+      <!-- Hero -->
+      <section class="hero" id="Home">
+        <div class="max_width">
+          <div class="hero_content">
+            <div class="my_name">Hello, My Name is</div>
+            <div class="name">Sambu El Khalis <i class="fa-solid fa-signature"></i></div>
+            <div class="jobs">And I'm a <span>Freelancer</span></div><br><br>
+            <a href="" class="button">Hire me</a>
+          </div>
+        </div>
+      </section>
+      <!-- / Hero -->
+
+      <!-- About -->
+      <section class="about" id="About">
+        <div class="max_width">
+          <div class="about_title">About Me <i class="fa-solid fa-id-card"></i></div>
+          <div class="about_content">
+            <div class="about_image">
+              <img src="https://i.postimg.cc/66YLDNDh/HTML6.jpg" alt="My Photo" />
+            </div>
+            <div class="about_me">
+              <h1>I'm Sambu El Khalis I'm a <span>Freelancer</span></h1>
+              <p>
+                Welcome to my Portfolio Website!. First please let me introduce myself, my name Sambu El Khalis. I was born on November 26, 2005 in Jakarta, and I am now 16 years old, the first child in my family. I live in the city of
+                Jakarta and attend SMK Pusaka 1 Jakarta 1st grade high school. My hobby is playing games and also I really like watching movies. When I grow up, I want to work as a freelancer with the skills I already have. and the reason
+                why I chose to become a freelancer is because being a freelancer we have an office in our own room without the need to go to work, and also of course we don't need to meet clients to determine what projects will be made
+                later. Not only is being a freelancer the job I want when I grow up, I also want to be a game developer. by becoming a game developer I can make games with the idea in my head, of course I want to make someone feel very
+                different from other games if they play games made by myself.
+              </p><br>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
