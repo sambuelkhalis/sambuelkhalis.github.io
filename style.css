@@ -277,6 +277,42 @@ section {
 }
 /* / About */
 
+/* Skill */
+.skill_title {
+  font-family: 'ubuntu';
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  font-size: 35px;
+}
+
+.skill_title::before {
+  transform: translateX(-50%);
+  background-color: #ffc500;
+  position: absolute;
+  width: 310px;
+  height: 3px;
+  content: "";
+  bottom: -2px;
+  left: 50%;
+}
+
+.skill_title::after {
+  transform: translateX(-50%);
+  content: "About all my Skills";
+  background-color: lightgray;
+  position: absolute;
+  font-size: 20px;
+  bottom: -22px;
+  padding: 10px;
+  color: orange;
+  left: 50%;
+}
+/* / Skill */
+
 /* Service */
 .service {
   font-family: "ubuntu", sans-serif;
@@ -300,7 +336,7 @@ section {
   font-family: "ubuntu";
   font-weight: 500;
   font-size: 35px;
-  padding: 0 0 15px 0;
+  padding: 10px 0;
 }
 
 .service_title::before {
@@ -345,16 +381,18 @@ section {
   width: 33.33%;
 }
 
+.service_card:hover i {
+  transition: color 0.3s ease;
+  color: #2a2b2a;
+}
+
 .service_card:hover {
-  background: linear-gradient(45deg, #6355a4, #e89a3e, #d17d1e, #ff48fa, #f0eb8d, lightgray);
+  background: lightgray;
   transform: scale(1.1);
-  color: black;
+  color: #1b263b;
 }
 
 .service_description {
   font-size: 17px;
-}
-
-.service_card i {
 }
 /* / Service */
