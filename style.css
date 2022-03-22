@@ -135,7 +135,7 @@ section {
   font-weight: 500;
   font-size: 22px;
   margin-left: 35px;
-  transition: color 0.4s ease;
+  transition: color 0.3s ease;
 }
 
 .navbar .menu a:hover {
@@ -285,15 +285,15 @@ section {
   position: relative;
   text-align: center;
   font-weight: 500;
+  font-size:  35px;
   color: black;
-  font-size: 35px;
 }
 
 .skill_title::before {
   transform: translateX(-50%);
   background-color: #ffc500;
   position: absolute;
-  width: 310px;
+  width: 250px;
   height: 3px;
   content: "";
   bottom: -2px;
@@ -311,6 +311,106 @@ section {
   color: orange;
   left: 50%;
 }
+
+.skill_content {
+  font-family: 'poppins';
+  font-weight: 500;
+  font-size: 21px;
+  display: flex;
+}
+
+.skill_exprience {
+  width: 50%;
+}
+
+.skill_exprience_title {
+  padding-bottom: 15px;
+  font-size: 28px;
+}
+
+.skill_exprience p {
+  font-weight: 401;
+}
+
+.skill_data {
+  font-weight: 450;
+  font-size: 22px;
+  margin-left: 20px;
+  width: 50%;
+}
+
+.skill_data_content {
+  margin-bottom: 15px;
+}
+
+.skill_language {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill_bar {
+  background-color: #382d2d;
+  border: 3px solid seashell;
+  position: relative;
+  border-radius: 6px;
+  height: 13px;
+  width: 100%;
+}
+
+.skill_bar_html::before {
+  background-color: #ffc500;
+  position: absolute;
+  border-radius: 6px;
+  content: "";
+  height: 6.5px;
+  width: 95%;
+  left: 0;
+  top: 0;
+}
+
+.skill_bar_css::before {
+  background-color: #846ce2;
+  position: absolute;
+  border-radius: 6px;
+  height: 6.5px;
+  content: "";
+  width: 85%;
+  left: 0;
+  top: 0;
+}
+
+.skill_bar_js::before {
+  background-color: #a79461;
+  position: absolute;
+  border-radius: 6px;
+  content: "";
+  height: 6.5px;
+  width: 65%;
+  left: 0;
+  top: 0;
+}
+
+.skill_bar_php::before {
+  background-color: rgb(230, 164, 178);
+  position: absolute;
+  border-radius: 6px;
+  content: "";
+  height: 6.5px;
+  width: 40%;
+  left: 0;
+  top: 0;
+}
+
+.skill_bar_sql::before {
+  background-color: rgb(230, 164, 178);
+  position: absolute;
+  border-radius: 6px;
+  content: "";
+  height: 6.5px;
+  width: 40%;
+  left: 0;
+  top: 0;
+}
 /* / Skill */
 
 /* Service */
@@ -318,7 +418,7 @@ section {
   font-family: "ubuntu", sans-serif;
   background-color: #1f1f1f;
   flex-direction: row;
-  display: flex;
+  /* display: flex; */
 }
 
 .service_title {
@@ -344,9 +444,9 @@ section {
   background: seashell;
   position: absolute;
   width: 310px;
+  bottom: -2px;
   height: 3px;
   content: "";
-  bottom: -2px;
   /* z-index: -1; */
   left: 50%;
 }
@@ -396,3 +496,11 @@ section {
   font-size: 17px;
 }
 /* / Service */
+
+/* Team */
+
+/* Team */
+
+/* Contact */
+
+/* / Contact */
