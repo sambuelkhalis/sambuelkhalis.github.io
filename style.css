@@ -151,7 +151,7 @@ section {
   min-height: 500px;
   height: 100vh;
   display: flex;
-  box-shadow: 0 0 35px 7px #183a4d;
+  box-shadow: 0 0 35px 12px #183a4d;
 }
 
 .hero .max_width {
@@ -203,7 +203,7 @@ section {
 .about_title {
   font-family: "ubuntu", sans-serif;
   padding-bottom: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   position: relative;
   text-align: center;
   font-weight: 500;
@@ -212,10 +212,11 @@ section {
 
 .about_title::before {
   transform: translateX(-50%);
-  background: orange;
+  background: #ffc500;
+  border-radius: 6px;
   position: absolute;
   /* color: crimson; */
-  width: 220px;
+  width: 190px;
   height: 3px;
   content: "";
   bottom: 5px;
@@ -261,7 +262,7 @@ section {
 
 .about_me p {
   font-family: "rubik";
-  font-weight: 400;
+  font-weight: 450;
   line-height: 1.6;
   font-size: 19.2px;
   margin-top: 15px;
@@ -278,37 +279,42 @@ section {
 /* / About */
 
 /* Skill */
+.skill {
+  background-color: #b43838;
+}
+
 .skill_title {
   font-family: 'ubuntu';
   padding-bottom: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
   position: relative;
   text-align: center;
   font-weight: 500;
   font-size:  35px;
-  color: black;
+  color: #d5f2e3;
 }
 
 .skill_title::before {
   transform: translateX(-50%);
-  background-color: #ffc500;
+  background-color: #9984d4;
+  border-radius: 8px;
   position: absolute;
+  bottom: -2px;
   width: 250px;
   height: 3px;
   content: "";
-  bottom: -2px;
   left: 50%;
 }
 
 .skill_title::after {
   transform: translateX(-50%);
   content: "About all my Skills";
-  background-color: lightgray;
+  background-color: #b43838;
   position: absolute;
   font-size: 20px;
   bottom: -22px;
   padding: 10px;
-  color: orange;
+  color: #d5f2e3;
   left: 50%;
 }
 
@@ -320,6 +326,7 @@ section {
 }
 
 .skill_exprience {
+  color: #e2d81f;
   width: 50%;
 }
 
@@ -333,11 +340,18 @@ section {
 }
 
 .skill_data {
+  flex-direction: column;
+  display: flex;
+  margin-left: 20px;
   font-weight: 450;
   font-size: 22px;
-  margin-left: 20px;
+  color: #f9eae1;
   width: 50%;
 }
+
+/* .skill_data i {
+  padding-left: 15px;
+} */
 
 .skill_data_content {
   margin-bottom: 15px;
@@ -346,6 +360,26 @@ section {
 .skill_language {
   display: flex;
   justify-content: space-between;
+}
+
+.fa-html5 {
+  color: #df8660;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-js-square {
+  color: #F0DB4F;
+}
+
+.fa-php {
+  color: #8993be;
+}
+
+.fa-database {
+  color: #2e77ae;
 }
 
 .skill_bar {
@@ -417,14 +451,14 @@ section {
 .service {
   font-family: "ubuntu", sans-serif;
   background-color: #1f1f1f;
-  flex-direction: row;
+  /* flex-direction: row; */
   /* display: flex; */
 }
 
 .service_title {
   font-family: "ubuntu", sans-serif;
   padding-bottom: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 120px;
   position: relative;
   text-align: center;
   font-weight: 500;
@@ -442,8 +476,9 @@ section {
 .service_title::before {
   transform: translateX(-50%);
   background: seashell;
+  border-radius: 6px;
   position: absolute;
-  width: 310px;
+  width: 315px;
   bottom: -2px;
   height: 3px;
   content: "";
@@ -502,5 +537,92 @@ section {
 /* Team */
 
 /* Contact */
+.contact {
+  box-shadow: 0 0 35px 14px #ffc500;
+  background-color: #ffc500;
+}
 
+.contact_title {
+  font-family: 'ubuntu';
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  color: #1f1f1f;
+}
+
+.contact_title::before {
+  transform: translateX(-50%);
+  background-color: #1f1f1f;
+  border-radius: 6px;
+  position: absolute;
+  width: 260px;
+  height: 3px;
+  content: "";
+  bottom: -2px;
+  left: 50%;
+}
+
+.contact_title::after {
+  content: "If you have question";
+  transform: translateX(-50%);
+  background-color: #ffc500;
+  position: absolute;
+  color: #1f1f1f;
+  font-size: 20px;
+  padding: 10px;
+  bottom: -22px;
+  left: 50%;
+}
+
+.contact_content {
+  font-family: 'poppins'; 
+  display: flex;
+}
+
+.contact_information {
+  width: 50%;
+}
+
+.gmap_canvas {
+  border: 5px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.contact_message {
+  margin-left: 50px;
+  font-weight: 450;
+  width: 50%;
+}
+
+.contact_message_title {
+  font-size: 35px;
+}
+
+.contact_message .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_message input, .contact_message textarea {
+  background-color: lightgray;
+  border: 2px solid #1f1f1f;
+  font-family: 'poppins';
+  padding: 14px 18px;
+  border-radius: 6px;
+  color: #1f1f1f;
+  font-weight: 450;
+  font-size: 19px;
+  margin: 10px 0;
+  outline: none;
+  height: 100%;
+  width: 100%;
+}
+
+.contact_name, .contact_email, .contact_message {
+  height: 45px;
+  width: 100%;
+}
 /* / Contact */
