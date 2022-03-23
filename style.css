@@ -52,6 +52,7 @@ section {
 }
 
 .button {
+  transition: all 0.5s ease;
   border-radius: 100rem;
   padding: 1rem;
   font-family: "ubuntu";
@@ -68,6 +69,7 @@ section {
 }
 
 .button:hover {
+  transition: all 0.5s ease;
   box-shadow: none;
   color: #292929;
 }
@@ -183,7 +185,7 @@ section {
 }
 
 .hero .jobs {
-  font-size: 50px;
+  font-size: 42px;
   color: lightsalmon;
   margin: 5px 0;
 }
@@ -225,7 +227,7 @@ section {
   width: 190px;
   height: 3px;
   content: "";
-  bottom: 5px;
+  bottom: 0;
   left: 50%;
 }
 
@@ -235,7 +237,7 @@ section {
   content: "Who I am?";
   position: absolute;
   font-size: 22px;
-  bottom: -15px;
+  bottom: -20px;
   padding: 10px;
   left: 50%;
 }
@@ -327,12 +329,12 @@ section {
 .skill_content {
   font-family: "poppins";
   font-weight: 500;
-  font-size: 21px;
+  /* font-size: 21px; */
   display: flex;
 }
 
 .skill_exprience {
-  color: #e2d81f;
+  color: #a6cbe0;
   width: 50%;
 }
 
@@ -341,8 +343,15 @@ section {
   font-size: 28px;
 }
 
+.skill_exprience h1 {
+  font-size: 31px;
+}
+
 .skill_exprience p {
-  font-weight: 401;
+  text-indent: 45px;
+  color: seashell;
+  font-weight: 350;
+  font-size: 18px;
 }
 
 .skill_data {
@@ -360,7 +369,7 @@ section {
 } */
 
 .skill_data_content {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .skill_language {
@@ -390,7 +399,7 @@ section {
 
 .skill_bar {
   background-color: #382d2d;
-  border: 3px solid seashell;
+  border: 2.5px solid seashell;
   position: relative;
   border-radius: 6px;
   height: 13px;
@@ -402,7 +411,7 @@ section {
   position: absolute;
   border-radius: 6px;
   content: "";
-  height: 6.5px;
+  height: 7.7px;
   width: 95%;
   left: 0;
   top: 0;
@@ -412,7 +421,7 @@ section {
   background-color: #846ce2;
   position: absolute;
   border-radius: 6px;
-  height: 6.5px;
+  height: 7.7px;
   content: "";
   width: 85%;
   left: 0;
@@ -424,7 +433,7 @@ section {
   position: absolute;
   border-radius: 6px;
   content: "";
-  height: 6.5px;
+  height: 7.7px;
   width: 65%;
   left: 0;
   top: 0;
@@ -435,7 +444,7 @@ section {
   position: absolute;
   border-radius: 6px;
   content: "";
-  height: 6.5px;
+  height: 7.7px;
   width: 40%;
   left: 0;
   top: 0;
@@ -446,7 +455,7 @@ section {
   position: absolute;
   border-radius: 6px;
   content: "";
-  height: 6.5px;
+  height: 7.7px;
   width: 40%;
   left: 0;
   top: 0;
@@ -540,7 +549,7 @@ section {
 
 /* Project */
 .project {
-  background-color: lightpink;
+  background-color: darkcyan;
   font-family: 'poppins';
   display: grid;
   /* gap: 25px; */
@@ -577,7 +586,7 @@ section {
 .project_title::after {
   content: "What projects have I worked on?";
   transform: translateX(-50%);
-  background-color: lightpink;
+  background-color: darkcyan;
   position: absolute;
   color: #1f1f1f;
   font-size: 22px;
@@ -602,17 +611,20 @@ section {
 }
 
 .project_1, .project_2, .project_3, .project_4 {
-  border-radius: 8px;
+  border: 3px solid seashell;
+  border-radius: 16px;
 }
 
 .project_content img {
   box-shadow: 7px 7px 7px 3px #1f1f1f;
-  border-radius: 8px;
+  transition: all 0.5s ease;
+  border-radius: 10px;
   width: 100%;
   height: 250px;
 }
 
 .project_content img:hover {
+  transition: all 0.5s ease;
   transform: scale(1.09);
 }
 
@@ -668,6 +680,7 @@ section {
   background-origin: border-box;
   border: solid 4px transparent;
   /* background-color: #ffc500; */
+  transition: all 0.5s ease;
   font-family: 'poppins';
   border-radius: 100rem;
   padding: 0.9rem 4rem;
@@ -678,6 +691,7 @@ section {
 }
 
 .project_1 .project_button:hover, .project_4 .project_button:hover {
+  transition: all 0.5s ease;
   box-shadow: none;
   color: #1f1f1f;
 }
@@ -690,6 +704,7 @@ section {
   background-origin: border-box;
   border: solid 4px transparent;
   /* background-color: #1f1f1f; */
+  transition: all 0.5s ease;
   font-family: 'poppins';
   border-radius: 100rem;
   padding: 0.9rem 4rem;
@@ -700,6 +715,7 @@ section {
 }
 
 .project_2 .project_button:hover, .project_3 .project_button:hover {
+  transition: all 0.5s ease;
   box-shadow: none;
   color: #ffc500;
 }
@@ -707,7 +723,7 @@ section {
 
 /* Contact */
 .contact {
-  box-shadow: 0 0 35px 14px #ffc500;
+  /* box-shadow: 0 0 35px 14px #ffc500; */
   background-color: #ffc500;
 }
 
@@ -778,7 +794,7 @@ section {
 .contact_message input,
 .contact_message textarea {
   background-color: lightgray;
-  border: 2px solid #1f1f1f;
+  border: 3px solid #1f1f1f;
   font-family: "poppins";
   padding: 14px 18px;
   border-radius: 6px;
@@ -796,6 +812,18 @@ section {
 .contact_message {
   height: 45px;
   width: 100%;
+}
+
+.field_send button {
+  background-color: seashell;
+  border: 3px solid #1f1f1f;
+  font-family: 'poppins';
+  border-radius: 8px;
+  font-weight: 500;
+  color: #1f1f1f;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
 }
 /* / Contact */
 
@@ -846,15 +874,18 @@ section {
 }
 
 .social_media {
+  transition: all 0.5s ease;
   justify-content: center;
   display: flex;
 }
 
 .social_media a {
+  transition: all 0.5s ease;
   color: seashell;
 }
 
 .social_media:hover {
+  transition: all 0.5s ease;
   transform: scale(1.2);
 }
 
@@ -879,6 +910,7 @@ section {
 }
 
 .youtube:hover {
+  transition: all 0.1s ease;
   padding: 0 0 15px 0;
   background: #ff0000;
   background-clip: text;
@@ -887,6 +919,7 @@ section {
 }
 
 .whatsapp:hover {
+  transition: all 0.1s ease;
   padding: 0 0 15px 20px;
   background: #25d366;
   background-clip: text;
@@ -895,6 +928,7 @@ section {
 }
 
 .github:hover {
+  transition: all 0.1s ease;
   padding: 0 0 15px 20px;
   background: seashell;
   background-clip: text;
@@ -904,6 +938,7 @@ section {
 }
 
 .instagram:hover {
+  transition: all 0.1s ease;
   padding: 0 0 15px 20px;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background-clip: text;
@@ -912,6 +947,7 @@ section {
 }
 
 .linkedin:hover {
+  transition: all 0.1s ease;
   padding: 0 0 15px 20px;
   background: #0e76a8;
   background-clip: text;

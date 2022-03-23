@@ -22,14 +22,14 @@ $('.button_up').click(function() {
 // Typing Animation Script
 var typed = new Typed(".typing", {
     strings: ["Freelancer", "Web Developer", "Game Developer", "Photographer", "Youtuber"],
-    typeSpeed: 100,
+    typeSpeed: 110,
     backSpeed: 60,
     loop: true
 });
 
 var typed = new Typed(".typing_2", {
     strings: ["Freelancer", "Web Developer", "Game Developer", "Photographer", "Youtuber"],
-    typeSpeed: 100,
+    typeSpeed: 110,
     backSpeed: 60,
     loop: true
 });
