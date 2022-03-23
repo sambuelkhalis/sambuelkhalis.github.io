@@ -21,6 +21,8 @@
     />
     <!-- JQery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JQuery Typed Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -35,7 +37,7 @@
             <li><a href="#About">About</a></li>
             <li><a href="#Skill">Skill</a></li>
             <li><a href="#Service">Service</a></li>
-            <!-- <li><a href="#Team">Team</a></li> -->
+            <li><a href="#Project">Project</a></li>
             <li><a href="#Contact">Contact</a></li>
           </ul>
         </div>
@@ -48,7 +50,7 @@
           <div class="hero_content">
             <div class="my_name">Hello, My Name is</div>
             <div class="name">Sambu <span>El Khalis</span> <i class="fa-solid fa-signature"></i></div>
-            <div class="jobs">And I'm a <span>Freelancer</span></div>
+            <div class="jobs">And I'm a <span class="typing"></span></div>
             <br /><br />
             <a href="" class="button">Hire me</a>
           </div>
@@ -65,7 +67,7 @@
               <img src="https://i.postimg.cc/66YLDNDh/HTML6.jpg" alt="My Photo" />
             </div>
             <div class="about_me">
-              <h1>All about me being a <span>Freelancer</span></h1>
+              <h1>All about me being a <span class="typing_2"></span></h1>
               <p>
                 Welcome to my Portfolio Website!. First please let me introduce myself, my name Sambu El Khalis. I was born on November 26, 2005 in Jakarta, and I am now 16 years old, the first child in my family. I live in the city of
                 Jakarta and attend SMK Pusaka 1 Jakarta 1st grade high school. My hobby is playing games and also I really like watching movies. When I grow up, I want to work as a freelancer with the skills I already have. and the reason
@@ -169,9 +171,63 @@
       </section>
       <!-- / Service -->
 
-      <!-- Team -->
-
-      <!-- / Team -->
+      <!-- Project -->
+      <section class="project" id="Project">
+        <div class="max_width">
+          <div class="project_title">Projects Done <i class="fa-solid fa-calendar-check"></i></div>
+          <div class="project_content">
+            <div class="project_1">
+              <div class="project_1_image">
+                <img src="https://i.postimg.cc/BQk9h47X/image.png" alt="Project Image">
+              </div>
+              <div class="project_description">
+                <h1>My Hoodie Shop Project</h1>
+                <p>In this project I created a website to show a hoodie shop, containing products, fabrics, contacts or social media, payment methods and shipping methods with complete information, to make potential buyers interested in buying products in your store.</p>
+                <div><br>
+                  <a class="project_button" href="https://sambuelkhalis.com/shop-hoodie" target="_blank">Preview Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="project_2">
+              <div class="project_2_image">
+                <img src="https://i.postimg.cc/TwkpZzgp/image.png" alt="Project Image">
+              </div>
+              <div class="project_description">
+                <h1>My First Portfolio Website</h1>
+                <p>in my simple website portfolio project I created a portfolio with some explanations about me, the skills I'm good at, how far I've mastered my skills, the projects I've worked on, and also contact me or send a message to contact me. with multiple animations on each content component</p>
+                <div><br>
+                  <a class="project_button" href="https://sambuelkhalis.com/first-portfolio" target="_blank">Preview Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="project_3">
+              <div class="project_3_image">
+                <img src="https://i.postimg.cc/bYQfm7cT/image.png" alt="Project Image">
+              </div>
+              <div class="project_description">
+                <h1>My Article Website</h1>
+                <p>In this Article on my Website, I discuss and also explain about what Programming is? The short story programming is the process of creating a set of instructions that tell a Computer how to perform a task. Programming can be done using a variety of Computer Programming Languages. And also I explain about Machine Language, Compiler Language, Source Code Entry, Bugs, and Debugging.</p>
+                <div><br>
+                  <a class="project_button" href="https://sambuelkhalis.com/article">Preview Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="project_4">
+              <div class="project_4_image">
+                <img src="https://i.postimg.cc/PJ9HbGFD/image.png" alt="Project Image">
+              </div>
+              <div class="project_description">
+                <h1>Projects For Coming Soon!</h1>
+                <p>For the next Project is still in progress, or even I do an update on my Project that has been completed. But I'll will keep creating new Projects.</p>
+                <div><br><br><br><br><br><br>
+                  <a class="project_button" href="">COMING SOON!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / Project -->
 
       <!-- Contact -->
       <section class="contact" id="Contact">
@@ -233,7 +289,38 @@
         </div>
       </section>
       <!-- / Contact -->
+
+      <!-- Button Up -->
+      <div class="button_up">
+        <i class="fa-solid fa-arrow-turn-up fa-2x" title="Scroll Up"></i>
+      </div>
+      <!-- / Button Up -->
     </div>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="footer_content">
+        <div class="social_media">
+          <div class="youtube">
+            <a class="fa-brands fa-youtube fa-3x" href="https://www.youtube.com/channel/UCITrghrdOcc2d4NZ4tsZWyA"></a>
+          </div>
+          <div class="whatsapp">
+            <a class="fa-brands fa-whatsapp fa-3x" href="https://wa.me/+6281908296596"></a>
+          </div>
+          <div class="github">
+            <a class="fa-brands fa-github fa-3x" href="https://github.com/sambuelkhalis"></a>
+          </div>
+          <div class="instagram">
+            <a class="fa-brands fa-instagram fa-3x" href="https://www.instagram.com/sambu_el_khalis"></a>
+          </div>
+          <div class="linkedin">
+            <a class="fa-brands fa-linkedin fa-3x" href="https://www.linkedin.com/in/sambu-el-khalis"></a>
+          </div>
+        </div>
+        <p>Copyright &copy 2022. @Sambu El Khalis</p>
+      </div>
+    </section>
+    <!-- / Footer -->
 
     <script src="app.js"></script>
   </body>
