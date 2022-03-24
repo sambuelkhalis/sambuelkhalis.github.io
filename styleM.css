@@ -1,5 +1,178 @@
-@media (max-width: 800px) {
-    * {
-        font-size: 50px;
-    }   
+@media (max-width: 480px) {
+  /* All Style */
+  .max_width {
+    width: 100%;
+    margin: auto;
+    padding: 0 25px;
+  }
+
+  html {
+      background-color: #ffc500;
+  }
+  /* / All Style */
+
+  /* All Style Title Section */
+  .skill_title::before {
+      width: 290px;
+      bottom: -6px;
+  }
+
+  .skill_title::after {
+      width: 60%;
+      bottom: -25px;
+  }
+  /* / All Style Title Section */
+
+  /* Navbar */
+  .navbar {
+    display: none;
+  }
+  /* / Navbar */
+
+  /* Hero */
+  .hero_content .my_name {
+    font-size: 6.2vw;
+  }
+
+  .hero_content .name {
+    font-size: 15vw;
+  }
+
+  .hero_content .name span {
+    display: none;
+  }
+
+  .hero_content .jobs .typing {
+    font-size: 11vw;
+  }
+
+  .hero_content .jobs br {
+    display: flex;
+  }
+
+  .hero_content .br1 {
+    display: none;
+  }
+  /* / Hero */
+
+  /* About */
+  .about {
+      background-color: lightgray;
+  }
+
+  .about_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .about_image,
+  .about img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .about_me {
+    padding-top: 20px;
+  }
+
+  .about_me,
+  .about_me h1,
+  .about_me p {
+    width: 100%;
+  }
+
+  .about_me p {
+    font-weight: 450;
+  }
+
+  .about_me p span {
+    display: none;
+  }
+  /* / About */
+
+  /* Skill */
+  .skill_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill_exprience {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .skill_data {
+    width: 100%;
+  }
+  /* / Skill */
+
+  /* Service */
+  .service_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service_card {
+    width: 100%;
+    margin: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* / Service */
+
+  /* Project */
+  .project_content {
+    grid-template-areas:
+      "project_1"
+      "project_2"
+      "project_4"
+      "project_3";
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .project_content img {
+    height: 125px;
+  }
+
+  .project_1,
+  .project_2,
+  .project_3,
+  .project_4 {
+    padding: 20px 25px;
+    padding-bottom: 35px;
+  }
+
+  .project_1 .project_button,
+  .project_4 .project_button {
+    font-size: 1rem;
+    padding: 0.7rem 3.85rem;
+  }
+
+  .project_2 .project_button,
+  .project_3 .project_button {
+    font-size: 1rem;
+    padding: 0.7rem 3.85rem;
+  }
+
+  /* Contact */
+  .contact {
+      /* margin-bottom: 150px; */
+      padding-bottom: 450px;
+  }
+
+  .contact_information {
+    display: none;
+  }
+
+  .contact_message {
+    width: 100%;
+    margin-left: 0;
+  }
+  /* / Contact */
+
+  /* Footer */
+
+  /* / Footer */
 }

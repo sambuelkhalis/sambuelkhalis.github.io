@@ -97,7 +97,7 @@ section {
 }
 
 .navbar.sticky {
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   background: #2d2727;
   padding: 15px 0;
 }
@@ -193,6 +193,10 @@ section {
 .hero .jobs span {
   color: #f0eb8d;
   font-weight: 500;
+}
+
+.hero_content .jobs br {
+  display: none;
 }
 /* / Hero */
 
