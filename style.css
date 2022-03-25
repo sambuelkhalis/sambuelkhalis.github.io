@@ -7,14 +7,14 @@
 }
 
 html {
-  background-color: lightgray;
+  background-color: #ffc500;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
 /* All Style */
 section {
-  padding: 120px 0;
+  padding: 90px 0;
 }
 
 .max_width {
@@ -203,6 +203,7 @@ section {
 /* About */
 .about {
   font-family: "poppins", sans-serif;
+  background-color: lightgray;
 }
 
 .about_content {
@@ -268,7 +269,7 @@ section {
   width: 605px;
 }
 
-.about_me span {
+.about_me h1 span {
   color: #6939c2;
 }
 
@@ -962,4 +963,8 @@ section {
 .footer p {
   font-size: 22px;
 }
+
+/* .footer br {
+  display: none;
+} */
 /* / Footer */

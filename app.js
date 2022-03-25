@@ -20,7 +20,6 @@ $(".button_up").click(function () {
 });
 
 const mediaQuery1 = window.matchMedia("(min-width: 1024px)");
-
 if (mediaQuery1.matches) {
   // Typing Animation Script
   var typed = new Typed(".typing", {
@@ -39,7 +38,6 @@ var typed = new Typed(".typing_2", {
 });
 
 const mediaQuery3 = window.matchMedia("(max-width: 480px)");
-
 if (mediaQuery3.matches) {
   var typed = new Typed(".typing", {
     strings: ["Freelancer", "Web Develop", "Game Develop", "Photographer", "Youtuber"],

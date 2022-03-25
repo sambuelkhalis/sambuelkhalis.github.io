@@ -1,4 +1,5 @@
-@media (max-width: 480px) {
+@media (max-width: 900px) {
+  /* max-width: 480 */
   /* All Style */
   .max_width {
     width: 100%;
@@ -7,19 +8,19 @@
   }
 
   html {
-      background-color: #ffc500;
+    background-color: #ffc500;
   }
   /* / All Style */
 
   /* All Style Title Section */
   .skill_title::before {
-      width: 290px;
-      bottom: -6px;
+    width: 290px;
+    bottom: -6px;
   }
 
   .skill_title::after {
-      width: 60%;
-      bottom: -25px;
+    width: 60%;
+    bottom: -25px;
   }
   /* / All Style Title Section */
 
@@ -57,7 +58,7 @@
 
   /* About */
   .about {
-      background-color: lightgray;
+    background-color: lightgray;
   }
 
   .about_content {
@@ -82,6 +83,10 @@
     width: 100%;
   }
 
+  .about_me h1 {
+    font-size: 32px;
+  }
+
   .about_me p {
     font-weight: 450;
   }
@@ -92,6 +97,9 @@
   /* / About */
 
   /* Skill */
+  .skill_title {
+      margin-bottom: 45px;
+  }
   .skill_content {
     display: flex;
     flex-wrap: wrap;
@@ -108,6 +116,15 @@
   /* / Skill */
 
   /* Service */
+  .service_title::before {
+    bottom: -13px;
+    width: 255px;
+  }
+
+  .service_title::after {
+    bottom: -52px;
+  }
+
   .service_content {
     width: 100%;
     display: flex;
@@ -123,6 +140,20 @@
   /* / Service */
 
   /* Project */
+  .project_title {
+    font-size: 35px;
+  }
+
+  .project_title::before {
+    width: 255px;
+    bottom: -10px;
+  }
+
+  .project_title::after {
+    content: "Projects I been Worked?";
+    bottom: -50px;
+  }
+
   .project_content {
     grid-template-areas:
       "project_1"
@@ -157,9 +188,18 @@
   }
 
   /* Contact */
+  .contact_title::before {
+    width: 255px;
+    bottom: -18px;
+  }
+
+  .contact_title::after {
+    bottom: -55px;
+  }
+
   .contact {
-      /* margin-bottom: 150px; */
-      padding-bottom: 450px;
+    /* margin-bottom: 150px; */
+    padding-bottom: 450px;
   }
 
   .contact_information {
@@ -172,7 +212,21 @@
   }
   /* / Contact */
 
-  /* Footer */
+  /* Button Up */
+  .fa-arrow-turn-up {
+    padding: 10px;
+    width: 55px;
+  }
 
+  .button_up {
+      bottom: 35px;
+      right: 15px;
+  }
+  /* / Button Up */
+
+  /* Footer */
+  .social_media:hover {
+      transform: scale(1.1);
+  }
   /* / Footer */
 }
