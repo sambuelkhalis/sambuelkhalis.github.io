@@ -51,9 +51,9 @@
     display: flex;
   }
 
-  .hero_content .br1 {
+  /* .hero_content .br1 {
     display: none;
-  }
+  } */
   /* / Hero */
 
   /* About */
@@ -230,3 +230,4 @@
   }
   /* / Footer */
 }
+    
