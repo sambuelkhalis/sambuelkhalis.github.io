@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sambu Portfolio</title>
+    <title>Sambu El Khalis Portfolio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -305,17 +305,24 @@
               <form action="#">
                 <div class="field">
                   <div class="field_name">
-                    <input type="text" id="Name" placeholder="Name" required />
+                    <input type="text" id="Name" name="Name" placeholder="Name" required />
                   </div>
                   <div class="field_email">
-                    <input type="email" id="Email" placeholder="Email" />
+                    <input type="email" id="Email" name="Email" placeholder="Email" />
                   </div>
                   <div class="field_message">
-                    <textarea id="Message" cols="80" rows="3" placeholder="Message" required></textarea>
+                    <textarea id="Message" name="Message" cols="80" rows="3" placeholder="Message" required></textarea>
                   </div>
+                  
+                  <!-- <div class="field_send_success">
+                    <strong>Thanks!</strong> Your message has been send.
+                  </div> -->
                   <div class="field_send">
                     <button type="submit">Send Message</button>
-                  </div>
+                  <!-- </div>
+                  <div class="field_send_loading">
+                    <button>Sending Message<strong>. . .</strong></button>
+                  </div> -->
                 </div>
               </form>
             </div>

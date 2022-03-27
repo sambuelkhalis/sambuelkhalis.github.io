@@ -819,16 +819,25 @@ section {
   width: 100%;
 }
 
-.field_send button {
+.field_send button, .field_send_loading button {
   background-color: seashell;
   border: 3px solid #1f1f1f;
   font-family: 'poppins';
+  margin-bottom: 15px;
   border-radius: 8px;
   font-weight: 500;
   color: #1f1f1f;
   font-size: 16px;
   cursor: pointer;
   padding: 10px;
+}
+
+.field_success {
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background-color: lightgray;
+  border: 2px solid lightcoral;
 }
 /* / Contact */
 
@@ -963,8 +972,4 @@ section {
 .footer p {
   font-size: 22px;
 }
-
-/* .footer br {
-  display: none;
-} */
 /* / Footer */
