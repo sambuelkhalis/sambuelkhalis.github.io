@@ -1,5 +1,4 @@
-@media (max-width: 900px) {
-  /* max-width: 480 */
+@media (max-width: 480px) {
   /* All Style */
   .max_width {
     width: 100%;
@@ -10,7 +9,7 @@
   html {
     background-color: #ffc500;
   }
-  
+
   /* / All Style */
 
   /* All Style Title Section */
@@ -22,7 +21,10 @@
     padding: 90px 0;
   }
 
-  .skill_title, .service_title, .project_title, .contact_title {
+  .skill_title,
+  .service_title,
+  .project_title,
+  .contact_title {
     margin-bottom: 20px;
   }
 

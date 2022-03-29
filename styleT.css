@@ -1,3 +1,21 @@
 @media (max-width: 1024px) {
+    /* Navbar */
+    .navbar {
+        display: none;
+    }
+    /* / Navbar */
 
+    /* Hero */
+    .hero {
+        padding: 0;   
+    }
+
+    .hero_content {
+        left: 15px;
+    }
+
+    .hero_content .name {
+        font-size: 65px;
+    }
+    /* / Hero */
 }
